@@ -10,7 +10,7 @@ menu:
   主页: / || fas fa-home
   说说: /artitalk/ || fas fa-comments
   归档: /archives/ || fas fa-archive
-  库: /categories/ || fas fa-folder-open
+  # 库: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
   其他||fas fa-list:
     音乐: /music/ || fas fa-music
@@ -104,7 +104,7 @@ disable_top_img: false
 index_img:
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: https://image.kysic.com.cn/053a7bcb96348244e0b226c09455d403/8c3e813b800a6.jpg
 
 # The banner image of archive page
 archive_img:
@@ -664,12 +664,12 @@ aside:
     description:
     button:
       enable: true
-      icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/Chocola4ever
+      # icon: fab fa-github
+      text: Follow Me On Bilibili
+      link: https://space.bilibili.com/186517328
   card_announcement:
     enable: true
-    content: 我太弱了，有人能帮帮我嘛
+    content: 那你能帮帮我嘛
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
