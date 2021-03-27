@@ -11,6 +11,19 @@ author: Chocola4ever
 language: zh-CN
 timezone: Asia/Shanghai
 
+# A simple 404 page
+error_404:
+  enable: true
+  subtitle: "页面没有找到"
+  background:
+
+# Artitalk
+# see https://artitalk.js.org/
+artitalk:
+  enable: true
+  appId: 'p95RjGx6j5Cwoj8xsERtdmS5-MdYXbMMI'
+  appKey: 'TvUakGomspnB7yj35UupgRVt'
+
 # hexo-admin authentification
 admin:
   username: Chocola4ever
