@@ -117,9 +117,3 @@ deploy:
   type: git
   repo: https://github.com/Chocola4ever/chocola4ever.github.io.git
   branch: master
-
-#Search
-search:
-  path: search.xml
-  field: post
-  content: true
