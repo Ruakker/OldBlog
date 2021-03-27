@@ -8,12 +8,13 @@
 
 menu:
   主页: / || fas fa-home
+  说说: /artitalk/ || fas fa-comments
   归档: /archives/ || fas fa-archive
-  # Categories: /categories/ || fas fa-folder-open
-  列表||fas fa-list:
+  库: /categories/ || fas fa-folder-open
+  友链: /link/ || fas fa-link
+  其他||fas fa-list:
     音乐: /music/ || fas fa-music
     个人链接: /mylink/ || fas fa-link
-  友链: /link/ || fas fa-link
   关于我: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
@@ -29,6 +30,19 @@ highlight_shrink: false # true: shrink the code blocks / false: expand the code 
 highlight_height_limit: false # unit: px
 code_word_wrap: false
 
+# A simple 404 page
+# error_404:
+#   enable: true
+#   subtitle: "页面没有找到"
+#   background:
+
+# Artitalk
+# see https://artitalk.js.org/
+artitalk:
+  enable: true
+  appId: p95RjGx6j5Cwoj8xsERtdmS5-MdYXbMMI
+  appKey: TvUakGomspnB7yj35UupgRVt
+
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
 copy:
@@ -43,9 +57,6 @@ copy:
 social:
   fab fa-github: https://github.com/Chocola4ever || Github
   fas fa-envelope: mailto:chocola4ever@foxmail.com || Email
-
-# search (搜索)
-# --------------------------------------
 
 # Algolia search
 algolia_search:
@@ -76,7 +87,6 @@ katex:
   hide_scrollbar: true
 
 # Image (圖片設置)
-top_img: https://image.kysic.com.cn/437249fa500d85c255948e9a9cb82ab8/6875ec65052ff.jpg
 # --------------------------------------
 
 # Favicon（網站圖標）
@@ -136,8 +146,8 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
-  subtitle: 'Page Not Found'
+  enable: true
+  subtitle: '変なところに入ってきました?'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
 post_meta:
@@ -724,11 +734,11 @@ newest_comments:
 # --------------------------------------
 
 # Change font size
-change_font_size: false
+change_font_size: true
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: false
+  enable: true
   # The text of a button
   default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
@@ -772,7 +782,7 @@ fancybox: true
 # mermaid
 # see https://github.com/knsv/mermaid
 mermaid:
-  enable: false
+  enable: true
   # built-in themes: default/forest/dark/neutral
   theme: default
 
@@ -797,8 +807,9 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
+    - /artitalk/
     # - xxxx
     # - xxxx
 
