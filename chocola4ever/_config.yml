@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Chocola's Blog
-subtitle: ''
-description: ''
+title: Chocola4ever's Blog
+subtitle: 'OIer'
+description: 'RP++'
 keywords:
-author: John Doe
+author: Chocola4ever
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://chocola4ever.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -105,3 +105,9 @@ deploy:
   type: git
   repo: https://github.com/Chocola4ever/chocola4ever.github.io.git
   branch: master
+
+#Search
+search:
+  path: search.xml
+  field: post
+  content: true
