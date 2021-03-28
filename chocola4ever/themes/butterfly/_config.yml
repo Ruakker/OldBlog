@@ -9,13 +9,12 @@
 menu:
   主页: / || fas fa-home
   说说: /artitalk/ || fas fa-comments
+  收藏: /collection/ || fas fa-folder-open
   归档: /archives/ || fas fa-archive
-  # 库: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
   其他||fas fa-list:
-    音乐: /music/ || fas fa-music
     个人链接: /mylink/ || fas fa-link
-  关于我: /about/ || fas fa-heart
+    关于我: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
@@ -605,7 +604,7 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  global-font-size:
+  global-font-size: 100 em
   code-font-size:
   font-family:
   code-font-family:
