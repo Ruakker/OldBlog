@@ -8,4 +8,5 @@ date: 2021-03-27 14:46:10
 - [Github](https://github.com/Chocola4ever)
 - [Luogu](https://www.luogu.com.cn/user/40698)
 - [Facebook](https://www.facebook.com/Chocola4ever)
+- [Twitter](https://twitter.com/The_Cold_Summer)
 - [QQ](mailto:chocola4ever@foxmail.com)
