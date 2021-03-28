@@ -18,6 +18,14 @@ admin:
   secret: my super secret phrase
   deployCommand: ./script/hexo-d.sh
 
+# Markdown
+markdown:
+  plugins:
+    - plugin:
+      name: '@neilsustc/markdown-it-katex'
+      options:
+        strict: false
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://chocola4ever.github.io
