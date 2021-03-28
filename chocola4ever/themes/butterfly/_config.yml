@@ -49,8 +49,11 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/Chocola4ever || Github
+  fab fa-github: https://github.com/Chocola4ever/ || Github
   fas fa-envelope: mailto:chocola4ever@foxmail.com || Email
+  fab fa-steam: https://steamcommunity.com/id/625850057/ || Steam
+  fab fa-facebook: https://www.facebook.com/Chocola4ever/ || Facebook
+  fab fa-qq: tencent://message/?uin=625850057&Site=发起qq聊天&Menu=yes || QQ
 
 # Algolia search
 algolia_search:
@@ -98,7 +101,7 @@ disable_top_img: false
 index_img:
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
 
 # The banner image of archive page
 archive_img:
@@ -130,7 +133,7 @@ cover:
   # left/right/both
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
-  default_cover: https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+  default_cover: https://image.kysic.com.cn/053a7bcb96348244e0b226c09455d403/8c3e813b800a6.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -262,7 +265,7 @@ addtoany:
 
 comments:
   # Up to two comments system, the first will be shown as default
-  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
+  Choose: # Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
   # - Valine
   # - Disqus
@@ -298,12 +301,12 @@ livere:
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id:
-  client_secret:
-  repo:
-  owner:
-  admin:
-  language: en # en, zh-CN, zh-TW, es-ES, fr, ru
+  client_id: 2df292a994686f67b95f
+  client_secret: 10ec9ed3893d4e8ef1bf62f0042c16188ef6a12b
+  repo: gitalk
+  owner: Chocola4ever
+  admin: Chocola4ever
+  language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru
   perPage: 10 # Pagination size, with maximum 100.
   distractionFreeMode: false # Facebook-like distraction free mode.
   pagerDirection: last # Comment sorting direction, available values are last and first.
@@ -823,12 +826,12 @@ snackbar:
 
 # https://instant.page/
 # prefetch (預加載)
-instantpage: false
+instantpage: true
 
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之間添加空格)
 pangu:
-  enable: false
+  enable: true
   field: site # site/post
 
 # Lazyload (圖片懶加載)
