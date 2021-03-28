@@ -1,5 +1,6 @@
-# This is my blog
-My Blog
+# Chocola4ever's blog
+
+issue即为blog评论区（具体请进入blog查看）
 
 [优化1](https://blog.csdn.net/u012208219/article/details/106883001/)
 

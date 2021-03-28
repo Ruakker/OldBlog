@@ -303,7 +303,7 @@ livere:
 gitalk:
   client_id: f1e43de3b2a6506685d2
   client_secret: 01f7473f700f435f8281d6afbb05741593017beb
-  repo: gitalk
+  repo: chocola4ever.github.io
   owner: Chocola4ever
   admin: Chocola4ever
   language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru
