@@ -19,7 +19,7 @@ date: 2021-03-28 15:24:56
 
 - [OI聚合图床](https://p.oier.tk/)
 
-- QQ表情
+- QQ表情!
 
 ```markdown
 ![qq](https://cdn.luogu.com.cn/upload/pic/62224.png)
