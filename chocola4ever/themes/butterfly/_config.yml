@@ -132,7 +132,7 @@ cover:
   # left/right/both
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
-  default_cover: https://image.kysic.com.cn/1aead123ae4e0694895f0887746d518a/0ddb9ff5a329f.jpeg
+  default_cover: https://image.kysic.com.cn/f31a6462dfeb002dbc5368f6c6840902/72fa1aad9306d.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
