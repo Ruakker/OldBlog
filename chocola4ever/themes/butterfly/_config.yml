@@ -49,11 +49,11 @@ copy:
 # formal:
 #   icon: link || the description
 social:
+  fab fa-qq: tencent://message/?uin=625850057&Site=发起qq聊天&Menu=yes || QQ
   fab fa-github: https://github.com/Chocola4ever/ || Github
-  fas fa-envelope: mailto:chocola4ever@foxmail.com || Email
   fab fa-steam: https://steamcommunity.com/id/625850057/ || Steam
   fab fa-facebook: https://www.facebook.com/Chocola4ever/ || Facebook
-  fab fa-qq: tencent://message/?uin=625850057&Site=发起qq聊天&Menu=yes || QQ
+  fab fa-twitter: https://twitter.com/The_Cold_Summer || Twitter
 
 # Algolia search
 algolia_search:
@@ -133,7 +133,7 @@ cover:
   # left/right/both
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
-  default_cover: https://image.kysic.com.cn/053a7bcb96348244e0b226c09455d403/8c3e813b800a6.jpg
+  default_cover: https://image.kysic.com.cn/1aead123ae4e0694895f0887746d518a/0ddb9ff5a329f.jpeg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -598,7 +598,7 @@ display_mode: light
 # Beautify (美化頁面顯示)
 beautify:
   enable: true
-  field: post # site/post
+  field: site # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: '#F47466'
 
@@ -628,7 +628,7 @@ subtitle:
   # Typewriter Effect (打字效果)
   effect: true
   # loop (循環打字)
-  loop: false
+  loop: true
   # source調用第三方服務
   # source: false 關閉調用
   # source: 1  調用搏天api的隨機語錄（簡體）
