@@ -665,7 +665,7 @@ aside:
       link: https://space.bilibili.com/186517328
   card_announcement:
     enable: true
-    content: 还不能偷懒划水哦
+    content: 停课开始了，还不能偷懒划水哦！
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
