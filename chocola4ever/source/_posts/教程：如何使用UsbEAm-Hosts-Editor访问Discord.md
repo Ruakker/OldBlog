@@ -1,11 +1,11 @@
 title: 教程：如何使用UsbEAm Hosts Editor访问Discord
 author: Chocola4ever
-date: 2021-03-29 15:37:49
-tags:
+tags: []
+categories:
+  - 教程
+date: 2021-03-29 15:37:00
 ---
-目前，我们在Discord上有一个Hydro服务器群组
-
-有相关上网工具的可以选择直接私聊Macesuted加入，如果没有，请查看下面的说明。
+> 注：工具暂时失效，此文仅作一备份
 
 # 工具下载
 
