@@ -143,7 +143,7 @@ error_img:
 error_404:
 	enable: true
 	subtitle: '変なところに入ってきました?'
-	background: /img/friend_404.gif
+	background: /img/404_3.png
 
 post_meta:
 	page: # Home Page
