@@ -147,7 +147,7 @@ error_404:
 
 post_meta:
 	page: # Home Page
-		date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
+		date_type: both # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
 		date_format: date # date/relative 顯示日期還是相對日期
 		categories: true # true or false 主頁是否顯示分類
 		tags: false # true or false 主頁是否顯示標籤
@@ -172,7 +172,7 @@ wordcount:
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-	method: 3
+	method: 2
 	length: 500 # if you set method to 2 or 3, the length need to config
 
 # Post
@@ -182,7 +182,7 @@ index_post_content:
 toc:
 	enable: true
 	number: true
-	style_simple: false
+	style_simple: true
 
 post_copyright:
 	enable: true
@@ -211,7 +211,7 @@ post_edit:
 
 # Related Articles
 related_post:
-	enable: true
+	enable: false
 	limit: 6 # Number of posts displayed
 	date_type: created # or created or updated 文章日期顯示創建日或者更新日
 
@@ -227,7 +227,7 @@ post_pagination: 1
 
 # anchor
 # when you scroll in post, the URL will update according to header id.
-anchor: false
+anchor: true
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
