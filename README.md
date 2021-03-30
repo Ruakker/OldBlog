@@ -1,6 +1,6 @@
 # Chocola4ever's blog
 
-issue即为blog评论区（具体请进入blog查看）
+[Blog网址](chocola4ever.github.io)
 
 [优化1](https://blog.csdn.net/u012208219/article/details/106883001/)
 

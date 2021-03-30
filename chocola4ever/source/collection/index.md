@@ -22,13 +22,13 @@ date: 2021-03-28 15:24:56
 
 # Others
 
-## Games&Entertainments
+### Games&Entertainments
 
 - [SlayOne](https://slay.one)
 - [IdleSpace2](http://idlegame.gitee.io/idlespace2/#/info)
 - [A Dark Room](http://g.miaowu.asia/?lang=cn)
 
-## QQ表情!
+### QQ表情!
 
 ```markdown
 ![qq](https://cdn.luogu.com.cn/upload/pic/62224.png)
