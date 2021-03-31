@@ -13,3 +13,5 @@
 [图标](https://fontawesome.com/icons?from=io)
 
 取消代理`git config --global --unset http.proxy`
+
+[一些背景](https://www.bilibili.com/read/cv6193176/)

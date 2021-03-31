@@ -13,48 +13,41 @@ date: 2021-03-29 18:04:00
 #define ll long long
 using namespace std;
 struct point{
-    ll x,y,v;
-}edge[1005];
+	ll x,y,v;
+}e[1005];
 int fa[1005];
 int n,i,j,x,y,z,m,tot,k;
 inline int father(int x){
-    if (fa[x]!=x)
-        fa[x]=father(fa[x]);
-    return fa[x];
+	if (fa[x]!=x) fa[x]=father(fa[x]);
+	return fa[x];
 }
-inline void unionn(int x,int y){
-    int faa=father(x);
-    int fab=father(y);
-    if (faa!=fab) fa[faa]=fab;
+void unionn(int x,int y){
+	int faa=father(x);
+	int fab=father(y);
+	if (faa!=fab) fa[faa]=fab;
 }
-inline bool cmp(point x,point y){
-    return x.v<y.v;
-}
+bool cmp(point x,point y){return x.v<y.v;}
 void kruskal(){
-    for (i=1;i<=m;i++){
-        if (father(edge[i].x)!=father(edge[i].y)){
-            unionn(edge[i].x,edge[i].y);
-            tot+=edge[i].v;
-            k++;
-        }
-        if (k==n-1)
-            break;
-    }
+	for (i=1;i<=m;i++){
+		if (father(e[i].x)!=father(e[i].y)){
+			unionn(e[i].x,e[i].y);
+			tot+=e[i].v;
+			k++;
+		}
+		if (k==n-1) break;
+	}
 }
-int main()
-{
-    scanf("%d%d",&n,&m);
-    for (int i=1;i<=m;i++){
-        scanf("%d%d%d",&x,&y,&z);
-        edge[i].x=x;
-        edge[i].y=y;
-        edge[i].v=z;
-    }
-    for (i=1;i<=n;i++)
-        fa[i]=i;
-    sort(edge+1,edge+m+1,cmp);
-    kruskal();
-    cout<<tot<<endl;
-    return 0;
+int main(){
+	scanf("%d%d",&n,&m);
+	for (int i=1;i<=m;i++){
+		scanf("%d%d%d",&x,&y,&z);
+		e[i].x=x,e[i].y=y,e[i].v=z;
+	}
+	for (i=1;i<=n;i++)
+		fa[i]=i;
+	sort(e+1,e+m+1,cmp);
+	kruskal();
+	cout<<tot<<endl;
+	return 0;
 }
 ```
