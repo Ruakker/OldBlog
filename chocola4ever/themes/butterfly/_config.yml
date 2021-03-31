@@ -111,7 +111,7 @@ tag_img:
 
 # The banner image of tag page
 # format:
-#	- tag name: xxxxx
+# - tag name: xxxxx
 tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
@@ -120,7 +120,7 @@ category_img:
 
 # The banner image of category page
 # format:
-#	- category name: xxxxx
+# - category name: xxxxx
 category_per_img:
 
 cover:
@@ -132,7 +132,13 @@ cover:
 	# left/right/both
 	position: both
 	# When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
-	default_cover: /img/defaultcover.jpg # https://image.kysic.com.cn/402cfdf1ef0401dc6a33a21daded7266/58d2815cdae24.jpg
+	default_cover:
+    - /img/defaultcover1.jpg
+    - /img/defaultcover2.jpg
+    - /img/defaultcover3.jpg
+    - /img/defaultcover4.png
+    - /img/defaultcover5.jpg
+    - /img/defaultcover6.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
