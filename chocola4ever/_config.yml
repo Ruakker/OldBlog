@@ -134,6 +134,9 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: https://github.com/Chocola4ever/chocola4ever.github.io.git
-  branch: master
+  - type: git
+    repo: https://github.com/Chocola4ever/chocola4ever.github.io.git
+    branch: master
+#   - type: git
+#     repo: git@gitee.com:chocola4ever/chocola4ever.gitee.io.git
+#     branch: master
