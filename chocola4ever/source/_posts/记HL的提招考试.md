@@ -1,6 +1,8 @@
 title: 记HL的提招考试
 author: Chocola4ever
-tags: []
+tags:
+  - 学校
+  - 生活
 categories:
   - 随笔
 date: 2021-03-29 07:55:00
