@@ -15,3 +15,11 @@
 取消代理`git config --global --unset http.proxy`
 
 [一些背景](https://www.bilibili.com/read/cv6193176/)
+
+问题的一些解决方案：
+
+[同时部署至Github与Gitee](https://blog.csdn.net/yakuaback/article/details/104513748)
+
+[解决Please make sure you have the correct access rights and the repository exists.](https://blog.csdn.net/qq_38741986/article/details/100137267)
+
+[报错ssh: connect to host github.com port 22: Connection timed out解决办法](https://blog.csdn.net/qq_42146613/article/details/82772734)
