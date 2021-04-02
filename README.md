@@ -27,3 +27,5 @@
 [报错ssh: connect to host github.com port 22: Connection timed out解决办法](https://blog.csdn.net/qq_42146613/article/details/82772734)
 
 [git 推送出现fatal: The remote end hung up unexpectedly解决方案](https://blog.csdn.net/weixin_38450840/article/details/80701173)
+
+[图片压缩](https://tinypng.com/)
