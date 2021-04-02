@@ -205,11 +205,11 @@ reward:
 	enable: true
 	QR_code:
 		- img: /img/wechat.webp
-			link: /reward/
+			link: /reward/index.html
 			text: 微信
-		# - img: /img/alipay.jpg
-		#	  link:
-		#	  text: alipay
+		- img: /img/alipay.webp
+      link: /reward/index.html
+      text: 支付宝
 
 # Post edit
 # Easily browse and edit blog source code online.

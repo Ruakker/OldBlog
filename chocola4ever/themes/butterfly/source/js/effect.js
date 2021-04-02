@@ -17,10 +17,9 @@ function send_valine_Qmsg(){
   httpRequest.setRequestHeader("Content-type","application/x-www-form-urlencoded");//设置请求头 注：post方式必须设置请求头（在建立连接后设置请求头）
   httpRequest.send(title2+data);//发送请求
 };
-
-   document.body.addEventListener('click', function(e) {
-   if(e.target.className.indexOf('vsubmit') === -1) {
-     return;
-   }
-   send_valine_Qmsg();
+  document.body.addEventListener('click', function(e) {
+  if(e.target.className.indexOf('vsubmit') === -1) {
+    return;
+  }
+  send_valine_Qmsg();
 })

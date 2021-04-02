@@ -1,6 +1,8 @@
-vtitle: 收藏
+---
+title: 收藏
 date: 2021-03-28 15:24:56
 comments: false
+aside: false
 ---
 # OI
 
@@ -22,6 +24,7 @@ comments: false
 - [Ubuntu剪切板](https://paste.ubuntu.com/)
 - [**OI聚合图床**](https://p.oier.tk/)
 - [**GeoGebra画板**](https://www.geogebra.org/graphing?lang=zh_CN)
+- [后缀自动机画图](https://yutong.site/sam/)
 
 ## Online Judge
 
