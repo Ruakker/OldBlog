@@ -129,7 +129,7 @@ ignore:
 history_calendar:
   priority: 4
   enable: true
-  enable_page: /
+  enable_page: all
   layout:
     type: class
     name: sticky_layout
@@ -139,7 +139,7 @@ history_calendar:
 electric_clock:
   priority: 5
   enable: true
-  enable_page: /
+  enable_page: all
   layout:
     type: class
     name: sticky_layout

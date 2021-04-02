@@ -9,8 +9,10 @@
 menu:
 	主页: / || fas fa-home
 	说说: /artitalk/ || fas fa-comments
-	收藏: /collection/ || fas fa-folder-open
+	收藏: /collection/ || far fa-folder-open
 	归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
 	友链: /link/ || fas fa-link
 	其他||fas fa-list:
 		个人链接: /mylink/ || fas fa-link
@@ -876,7 +878,7 @@ inject:
 		- '<style type="text/css">#toggle-sidebar {bottom: 80px}</style>'
   bottom:
 		- <script src="/js/effect.js"></script>
-    - <div class="aplayer no-destroy" data-id="7946672896" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div>
+    - <div class="aplayer no-destroy" data-id="7946672896" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="false" muted></div>
 		# - <script src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/js/WithoutLine.min.js"></script>
 
 # CDN
