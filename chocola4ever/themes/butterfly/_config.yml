@@ -672,7 +672,7 @@ aside:
 			text: Bilibili
 			link: https://space.bilibili.com/186517328
 	card_announcement:
-		enable: true
+		enable: false
 		content: 我好弱啊
 	card_recent_post:
 		enable: false
