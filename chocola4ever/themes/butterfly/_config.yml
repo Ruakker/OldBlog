@@ -673,7 +673,7 @@ aside:
 			link: https://space.bilibili.com/186517328
 	card_announcement:
 		enable: true
-		content: We are the good youth
+		content: 我好弱啊
 	card_recent_post:
 		enable: false
 		limit: 5 # if set 0 will show all
