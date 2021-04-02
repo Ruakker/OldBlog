@@ -12,7 +12,9 @@
 
 [图标](https://fontawesome.com/icons?from=io)
 
-取消代理`git config --global --unset http.proxy`
+部署前先`ipconfig/flushdns`
+
+[评论管理](https://imnerd-api-xi.vercel.app/ui)
 
 [一些背景](https://www.bilibili.com/read/cv6193176/)
 
