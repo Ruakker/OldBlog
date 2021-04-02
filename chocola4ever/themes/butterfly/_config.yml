@@ -344,8 +344,8 @@ valine:
 # https://waline.js.org/
 waline:
 	serverURL: https://imnerd-api-xi.vercel.app/ # Waline server address url
-	avatar: robohash # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
-	emojiCDN: # emoji CDN
+	avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
+	emojiCDN: https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/ # emoji CDN
 	bg: # waline background
 	visitor: false
 	option:
@@ -431,11 +431,11 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics:
+baidu_analytics: 459012d48bb093d628d179a31a712fb1
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
-google_analytics:
+google_analytics: G-K5VT42921D
 
 # Tencent Analytics ID
 # https://mta.qq.com
