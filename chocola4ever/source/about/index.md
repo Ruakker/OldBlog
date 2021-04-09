@@ -1,3 +1,4 @@
+---
 title: 个人简介
 date: 2021-03-27 14:57:06
 comments: false
@@ -28,3 +29,5 @@ comments: false
 ## 我的昵称？
 
 嗯..`Chocola`出自~~某知名第一人称射击游戏人物~~
+
+感兴趣的话，去搜一下**Nekopara**就可以了
