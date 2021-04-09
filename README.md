@@ -1,6 +1,6 @@
 # Chocola4ever's blog
 
-[Blog网址](chocola4ever.github.io)
+[Blog网址](https://chocola4ever.cf)
 
 [优化1](https://blog.csdn.net/u012208219/article/details/106883001/)
 
