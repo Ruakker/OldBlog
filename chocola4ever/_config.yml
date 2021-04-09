@@ -156,6 +156,6 @@ theme: butterfly
 deploy:
   type: git
   repo:
-    github: git@github.com:Chocola4ever/Vercel4blog.git
+    github: git@github.com:Chocola4ever/chocola4ever.github.io.git
     gitee: git@gitee.com:chocola4ever/chocola4ever.git
   branch: master
