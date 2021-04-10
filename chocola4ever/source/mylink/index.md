@@ -1,7 +1,6 @@
----
 title: 个人链接
-date: 2021-03-27 14:46:10
 comments: false
+date: 2021-03-27 14:46:10
 ---
 ## 各平台账号
 - [Bilibili](https://space.bilibili.com/186517328)
@@ -21,5 +20,7 @@ comments: false
 
 - 625850057@qq.com
 - chocola4ever@foxmail.com
+- admin@chocola4ever.cf
+- lazybone_sans@qq.com
 - chocola4ever@163.com
 - qq625850057@gmail.com
