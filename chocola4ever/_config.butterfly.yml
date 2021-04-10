@@ -1,4 +1,4 @@
-# Main menu navigation (導航目錄)
+﻿# Main menu navigation (導航目錄)
 # --------------------------------------
 
 # format: name: link || icon
@@ -192,7 +192,7 @@ index_post_content:
 toc:
 	enable: true
 	number: true
-	style_simple: true
+	style_simple: false
 
 post_copyright:
 	enable: true
@@ -676,6 +676,9 @@ aside:
 	card_announcement:
 		enable: false
 		content: 我好弱啊
+	card_clock: #侧栏电子钟
+		enable: true
+		sort_order: # Don't modify the setting unless you know how it works
 	card_recent_post:
 		enable: false
 		limit: 5 # if set 0 will show all
@@ -890,6 +893,8 @@ CDN:
 	jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
 	main: /js/main.js
 	utils: /js/utils.js
+	vue: https://cdn.jsdelivr.net/npm/vue@2.6.11  # vue.js依赖
+	card_clock: /js/card_clock.js  # 首页电子钟
 
 	# pjax
 	pjax: https://cdn.jsdelivr.net/npm/pjax/pjax.min.js
