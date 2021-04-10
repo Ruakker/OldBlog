@@ -1,9 +1,7 @@
----
 title: 个人简介
-date: 2021-03-27 14:57:06
 comments: false
+date: 2021-03-27 14:57:06
 ---
-
 ## 产品简介
 > A student of **Hailiang Senior High School**
 >
@@ -17,6 +15,7 @@ comments: false
 
 ## Music?
 
+左下角添加了音乐播放器，默认不自动播放。
 
 - [我的音乐歌单](https://c.y.qq.com/base/fcgi-bin/u?__=lfmvqMM)
 
@@ -26,8 +25,19 @@ comments: false
 
 目标今年提高省一吧
 
-## 我的昵称？
+## 有什么爱好？
 
-嗯..`Chocola`出自~~某知名第一人称射击游戏人物~~
+去看看我的Steam吧！
 
-感兴趣的话，去搜一下**Nekopara**就可以了
+擅长各大FPS游戏如
+
+- [Tom Clancy's Rainbow Six: Siege](https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/)
+- [Call of Duty系列](https://store.steampowered.com/bundle/6465/Call_of_Duty_Franchise_Collection/)
+- [Counter-Strike: Global Offensive](https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/)
+- [Battlefield 1](https://store.steampowered.com/app/1238840/Battlefield_1/)
+- 还有一些休闲游戏（算半个FPS）
+    - [Unturned](https://store.steampowered.com/app/304930/Unturned/)
+    - [Ravenfield](https://store.steampowered.com/app/636480/Ravenfield/)
+- ······
+
+另外，最近在玩COD16&17，没时间刷僵尸只能回家几天打打疫情爆发
