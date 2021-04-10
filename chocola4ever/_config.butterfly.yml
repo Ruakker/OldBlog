@@ -502,7 +502,7 @@ yandex_site_verification:
 # Notice: color value must in double quotes like "#000" or may cause error!
 
 # theme_color:
-#	 enable: true
+#	 enable: false
 #	 main: "#49B1F5"
 #	 paginator: "#00c4b6"
 #	 button_hover: "#FF7242"
@@ -532,7 +532,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: "#efefef"
 
 # Footer Background
 footer_bg: false
@@ -564,7 +564,7 @@ canvas_fluttering_ribbon:
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-	enable: true
+	enable: false
 	color: '100,100,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
 	opacity: 0.75 # the opacity of line (0~1), default: 0.5.
 	zIndex: -1 # z-index property of the background, default: -1.
@@ -830,7 +830,7 @@ aplayerInject:
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
 	enable: true
-	position: bottom-left
+	position: top-center
 	bg_light: '#49b1f5' # The background color of Toast Notification in light mode
 	bg_dark: '#121212' # The background color of Toast Notification in dark mode
 
@@ -873,7 +873,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
 	head:
-		- <link rel="stylesheet" href="/css/effect.css">
+		- <link rel="stylesheet" href="/css/effect.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/self/tab_4.css">
 		- '<style type="text/css">#toggle-sidebar {bottom: 80px}</style>'
   bottom:
