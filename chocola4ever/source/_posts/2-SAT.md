@@ -1,3 +1,4 @@
+---
 title: 2-SAT
 author: Chocola4ever
 tags:

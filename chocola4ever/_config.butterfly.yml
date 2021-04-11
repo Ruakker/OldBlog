@@ -205,10 +205,10 @@ reward:
 	enable: true
 	QR_code:
 		- img: /image/wechat.webp
-			link: /reward/index.html
+			link: /reward/
 			text: 微信
 		- img: /image/alipay.webp
-      link: /reward/index.html
+      link: /reward/
       text: 支付宝
 
 # Post edit
