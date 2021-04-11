@@ -277,7 +277,7 @@ comments:
 	Choose: Gitalk # Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
 	use:
     - Waline
-		- Gitalk
+		- Livere
 	# - Disqus
 	text: true # Display the comment name next to the button
 	# lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -306,7 +306,7 @@ disqusjs:
 # livere (來必力)
 # https://www.livere.com/
 livere:
-	uid:
+	uid: MTAyMC81MzIxNC8yOTY4OQ==
 
 # gitalk
 # https://github.com/gitalk/gitalk
