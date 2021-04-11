@@ -43,8 +43,8 @@ artitalk:
 copy:
 	enable: true
 	copyright:
-		enable: false
-		limit_count: 50
+		enable: true
+		limit_count: 100
 
 # social settings (社交圖標設置)
 # formal:
@@ -164,7 +164,7 @@ post_meta:
 		label: true # true or false 顯示描述性文字
 	post:
 		date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
-		date_format: date # date/relative 顯示日期還是相對日期
+		date_format: relative # date/relative 顯示日期還是相對日期
 		categories: true # true or false 文章頁是否顯示分類
 		tags: true # true or false 文章頁是否顯示標籤
 		label: true # true or false 顯示描述性文字
@@ -196,7 +196,7 @@ toc:
 
 post_copyright:
 	enable: true
-	decode: true
+	decode: false
 	license: CC BY-NC-SA 4.0
 	license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -226,7 +226,7 @@ related_post:
 	date_type: created # or created or updated 文章日期顯示創建日或者更新日
 
 # figcaption (圖片描述文字)
-photofigcaption: false
+photofigcaption: true
 
 # post_pagination (分頁)
 # value: 1 || 2 || false
@@ -237,7 +237,7 @@ post_pagination: 2
 
 # anchor
 # when you scroll in post, the URL will update according to header id.
-anchor: false
+anchor: true
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
@@ -477,11 +477,11 @@ google_adsense:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-google_site_verification:
+google_site_verification: g32y6AOHV9APfArTXe8GZlq1hdCGYGmk7jy4djiKWtI
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
-bing_site_verification:
+bing_site_verification: 5182E7D708FD3F85BA2D07257CD6FE2E
 
 # Baidu Webmaster tools verification setting
 # See: https://ziyuan.baidu.com/site/
@@ -664,7 +664,7 @@ aside:
 	hide: false
 	button: true
 	mobile: true # display on mobile
-	position: right # left or right
+	position: left # left or right
 	card_author:
 		enable: true
 		description: OIer
@@ -731,13 +731,13 @@ newest_comments:
 	valine: false
 	github_issues:
 		enable: false
-		repo: chocola4ever.github.io
+		repo:
 	disqus:
 		enable: false
 		forum:
 		api_key:
 	twikoo: false
-	waline: false
+	waline: true
 
 # Bottom right button (右下角按鈕)
 # --------------------------------------

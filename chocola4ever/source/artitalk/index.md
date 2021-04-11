@@ -1,12 +1,7 @@
-
 ---
-
 title: 说说
-type: artitalk
-noDate: 'true'
-comments: 'false'
-top_img:
-
+date: 2021-03-27 10:55:00
+comments: false
 ---
 
 <script type="text/javascript" src="https://unpkg.com/artitalk"></script>

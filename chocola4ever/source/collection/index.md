@@ -33,7 +33,7 @@ aside: false
 - **Codeforces**
   - [主站](http://codeforces.com)
   - [镜像站.ml](http://codeforces.ml)
-  - [镜像站.live](http://codeforces.com)
+  - [镜像站.live](http://codeforces.live)
 - [AtCoder](https://atcoder.jp)
 
 ### Domestic

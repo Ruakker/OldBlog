@@ -1,3 +1,4 @@
+---
 title: 个人简介
 comments: false
 date: 2021-03-27 14:57:06
@@ -32,7 +33,7 @@ date: 2021-03-27 14:57:06
 擅长各大FPS游戏如
 
 - [Tom Clancy's Rainbow Six: Siege](https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/)
-- [Call of Duty系列](https://store.steampowered.com/bundle/6465/Call_of_Duty_Franchise_Collection/)
+- [Call of Duty 系列](https://store.steampowered.com/bundle/6465/Call_of_Duty_Franchise_Collection/)
 - [Counter-Strike: Global Offensive](https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/)
 - [Battlefield 1](https://store.steampowered.com/app/1238840/Battlefield_1/)
 - 还有一些休闲游戏（算半个FPS）
@@ -40,4 +41,4 @@ date: 2021-03-27 14:57:06
     - [Ravenfield](https://store.steampowered.com/app/636480/Ravenfield/)
 - ······
 
-另外，最近在玩COD16&17，没时间刷僵尸只能回家几天打打疫情爆发
+另外，最近在玩COD16&17，没时间刷僵尸只能回家几天打打疫情爆发/kk
