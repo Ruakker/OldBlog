@@ -88,6 +88,24 @@ prismjs:
   line_number: true
   tab_replace: ''
 
+encrypt:
+    enable: true
+    abstract: 这篇文章需要密码哦！
+    message: 密码是什么？
+    wrong_pass_message: 不是哦！
+    theme: shrink
+
+hpptalk:
+  enable: true
+  domain: hexoplusplus.chocola4ever.workers.dev
+  path: talking
+  limit:
+  start:
+  js:
+  css:
+  option:
+  front_matter:
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)

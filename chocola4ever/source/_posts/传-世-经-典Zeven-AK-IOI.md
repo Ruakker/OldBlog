@@ -1,4 +1,4 @@
-title: 传 世 经 典Zeven AK IOI
+title: 传 世 经 典 Zeven AK IOI
 author: Chocola4ever
 tags:
   - 经典

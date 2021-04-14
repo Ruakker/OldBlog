@@ -24,6 +24,10 @@ date: 2021-03-27 14:57:06
 
 超级蒻的OIer
 
+![](http://cfrating.ihcr.top/?user=Chocola4ever)
+
+![](https://luogu.vercel.app/api?id=40698)
+
 目标今年提高省一吧
 
 ## 有什么爱好？
