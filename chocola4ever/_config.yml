@@ -36,7 +36,7 @@ markdown:
     - plugin:
       name: '@neilsustc/markdown-it-katex'
       options:
-        strict: false
+        strict: true
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -92,19 +92,8 @@ encrypt:
     enable: true
     abstract: 这篇文章需要密码哦！
     message: 密码是什么？
-    wrong_pass_message: 不是哦！
+    wrong_pass_message: 不对哦！
     theme: shrink
-
-hpptalk:
-  enable: true
-  domain: hexoplusplus.chocola4ever.workers.dev
-  path: talking
-  limit:
-  start:
-  js:
-  css:
-  option:
-  front_matter:
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')

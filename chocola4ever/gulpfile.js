@@ -11,16 +11,16 @@ const uglify = require('gulp-uglify')
 const babel = require('gulp-babel')
 
 // minify js - babel（ 如果不是使用bebel,把下面註釋掉）
-gulp.task('compress', () =>
-  gulp.src(['./public/**/*.js', '!./public/**/*.min.js'])
-    .pipe(babel({
-      presets: ['@babel/preset-env']
-    }))
-    .pipe(uglify().on('error', function (e) {
-      console.log(e)
-    }))
-    .pipe(gulp.dest('./public'))
-)
+// gulp.task('compress', () =>
+//   gulp.src(['./public/**/*.js', '!./public/**/*.min.js'])
+//     .pipe(babel({
+//       presets: ['@babel/preset-env']
+//     }))
+//     .pipe(uglify().on('error', function (e) {
+//       console.log(e)
+//     }))
+//     .pipe(gulp.dest('./public'))
+// )
 
 // minify js - gulp-tester (如果使用 gulp-tester,把下面前面的//去掉)
 // gulp.task('compress', () =>
@@ -69,5 +69,5 @@ gulp.task('minify-images', async () => {
 
 // 執行 gulp 命令時執行的任務
 gulp.task('default', gulp.parallel(
-  'compress', 'minify-css', 'minify-html', 'minify-images'
+  'minify-css', 'minify-html', 'minify-images'
 ))

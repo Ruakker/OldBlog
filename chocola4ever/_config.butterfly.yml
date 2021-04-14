@@ -8,7 +8,7 @@
 
 menu:
 	主页: / || fas fa-home
-	说说: /artitalk/ || fas fa-comments
+	说说: /talking/ || fas fa-comments
 	收藏: /collection/ || far fa-folder-open
 	归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
@@ -31,12 +31,28 @@ highlight_shrink: false # true: shrink the code blocks / false: expand the code 
 highlight_height_limit: false # unit: px
 code_word_wrap: false
 
+hpptalk:
+  enable: false
+  domain: "hexoplusplus.chocola4ever.workers.dev"
+  path:
+  limit:
+  start:
+  js:
+  css:
+  option:
+  front_matter:
+
 # Artitalk
 # see https://artitalk.js.org/
 artitalk:
-	enable: true
+	enable: false
 	appId: N2yShDIS5eeA2T6yb5Jqllvy-MdYXbMMI
 	appKey: crO33Uj1zAU4hzwJ9K4Ey3sg
+  front_matter:
+    "title: 说说"
+#    date: 2021-03-27 15:05:00
+#    aside: false
+#    comments: false
 
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
@@ -182,7 +198,7 @@ wordcount:
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-	method: 2
+	method: 1
 	length: 500 # if you set method to 2 or 3, the length need to config
 
 # Post
@@ -818,7 +834,7 @@ note:
 pjax:
 	enable: true
 	exclude:
-		# - /artitalk/
+		- /talking/
 		# - xxxx
 		# - xxxx
 
