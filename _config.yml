@@ -168,6 +168,6 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
     type: git
-    repo:
-        github: git@github.com:Ruakker/Blog.git
+    repo: git@github.com:Ruakker/Blog.git
+    repo: git@gitee.com:ruakker/ruakker.git
     branch: page
