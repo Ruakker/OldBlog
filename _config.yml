@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Chocola4ever's Blog
-subtitle: "OIer"
+title: Ruakker's Blog
+subtitle: "Rekkaur"
 description: "RP++"
 keywords:
-author: Chocola4ever
+author: Ruakker
 language: zh-CN
 timezone: Asia/Shanghai
 
@@ -23,13 +23,6 @@ aplayer:
     asset_inject: false # 自动插入 Aplayer.js 与 Meting.js 资源脚本, 默认开启
     #externalLink: http://xxx/aplayer.min.js       # 老版本参数，功能与参数 cdn 相同meting: true
 
-# hexo-admin authentification
-admin:
-    username: Chocola4ever
-    password_hash: $2a$10$E/ula/8kAfErXA2a1TTlmOEfkdjGpsxmqTzeMMgaZMlkbnukp2yNK
-    secret: my super secret phrase
-    deployCommand: ./script/hexo-d.sh
-
 # Markdown
 markdown:
     plugins:
@@ -40,7 +33,7 @@ markdown:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://chocola4ever.cf
+url: https://hx.ruakker.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
