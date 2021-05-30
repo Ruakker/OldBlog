@@ -151,7 +151,7 @@ cover:
 	position: both
 	# When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
 	default_cover:
-    - https://img.xjh.me/random_img.php?type=bg&ctype=acg&return=302
+    - https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
