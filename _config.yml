@@ -170,5 +170,6 @@ deploy:
     type: git
     repo:
         github: git@github.com:Ruakker/Blog.git
-        gitee: git@gitee.com:ruakker/ruakker.git
-    branch: page
+    branch:
+        page
+        # gitee: git@gitee.com:ruakker/ruakker.git
